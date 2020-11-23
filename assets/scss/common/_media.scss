@@ -1,0 +1,52 @@
+/* _media.scsss */
+
+$pc: 1024px;
+$note:1150px;
+$pad:980px;
+$tab:768px;
+$sp: 480px;
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+
+@mixin note {
+  @media (max-width: ($note)) {
+    @content;
+  }
+}
+
+@mixin pad {
+  @media (max-width: ($pad)) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+.sp,
+.sp-only {
+  display: none;
+  @include tab {
+    display: block !important;
+  }
+}
+
+.pc,
+.pc-only {
+  display: block;
+  @include tab {
+    display: none !important;
+  }
+}

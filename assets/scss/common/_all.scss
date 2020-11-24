@@ -190,4 +190,47 @@
     }
 }
 
-.qa-menu {}
+.qa-menu {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+%afterbefore {
+    content: "";
+    position: absolute;
+    top: 7px;
+    width: 3px;
+    height: 13px;
+    border-radius: 50px;
+    background-color: #EDD098;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.qa-menuinn {
+    max-width: 900px;
+    width: 85%;
+    margin: 0 auto;
+    a {
+        color: #606060;
+    }
+    li {
+        font-size: 14px;
+        padding: 0 7.7%;
+        position: relative;
+        &:after {
+            left: 0;
+            @extend %afterbefore;
+        }
+        &:last-child::before {
+            right: 0;
+            @extend %afterbefore;
+        }
+    }
+}
+
+.qa-inn01 {
+    background-color: #fff;
+}

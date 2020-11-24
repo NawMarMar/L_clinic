@@ -1,3 +1,4 @@
+
 .mv-wrap {
   position: relative;
   padding: 250px 0;
@@ -189,3 +190,177 @@
     }
   }
 }
+
+// start part02 css here!
+.deli_schedule{
+  width:100%;
+  margin:0 auto;
+  .deli_inner{
+    width:100%;
+    margin:0 auto;
+    .deli-hd01{
+      margin:30px auto;
+      max-width: 400px;
+      width:80%;
+    }
+    .box{
+      width: 90%;
+      max-width: 900px;
+      margin:0 auto;
+      background:#fff;
+      border-radius:20px;
+      -webkit-border-radius:20px;
+      -moz-border-radius:20px;
+      -ms-border-radius:20px;
+      -o-border-radius:20px;
+      padding:25px 0;
+      background:#f2f6f7;
+      .box-inner{
+        width:80%;
+        margin:0 auto;
+        .txt01{
+          font-size:14px;
+          line-height: 1.6;
+          text-align: center;
+        }
+        .list{
+          justify-content: space-between;
+          width:100%;
+          margin:10px auto 0;
+          .list-item{
+            width:20%;
+            h4{
+              font-size: 14px;
+              padding:5px 0;
+              text-align: center;
+              color:#fff;
+              background:#5A9CD5;
+              border-radius:20px;
+              -webkit-border-radius:20px;
+              -moz-border-radius:20px;
+              -ms-border-radius:20px;
+              -o-border-radius:20px;
+              width:90%;
+              margin:0 auto 10px;
+              letter-spacing: 0;
+            }
+            p{
+              text-align: center;
+              color:#5e5e5e;
+              img{
+                max-width: 100px;
+                margin:0 auto;
+                width: 90%;
+              }
+            }
+              
+          }
+        }
+      }
+        
+    }
+    .box01{
+      margin:35px auto;
+      background:#eefaff;
+      .box-inner{
+        width:90%;
+        .tb-schedule{
+          width:100%;
+          margin:0 auto;
+          table{
+            width:100%;
+            border:2px solid #4a74a6;
+            border-left:none;
+            border-bottom: none;
+            tr{
+              width: 100%;
+              th{
+                font-size: 14px;
+                color:#fff;
+                background:#4a74a6;
+                width:10%;
+                padding:10px 20px;
+                text-align: left;
+                border-bottom: 2px solid #fff;
+              }
+              td{
+                font-size: 14px;
+                color:#444;
+                width:80%;
+                padding:10px 20px;
+                text-align: left;
+                border-bottom: 2px solid #4a74a6;
+              }
+              .blue-bg{
+                background:#48a9d3;
+              }
+              .border-none{
+                border-color:#48a9d3;
+              }
+            }
+          }
+        }
+        .shipping_method{
+          width: 100%;
+           margin:50px auto;
+           .method-flex{
+             width:100%;
+             margin:50px auto;
+             justify-content: space-between;
+             .box01{
+               width:47%;
+               background:#fff;
+               border-radius: 15px;
+               -webkit-border-radius: 15px;
+               -moz-border-radius: 15px;
+               -ms-border-radius: 15px;
+               -o-border-radius: 15px;
+               h3{
+                 background:#4a74a6;
+                 text-align: center;
+                 padding:15px 0;
+                 border-radius: 15px 15px 0 0;
+                 -webkit-border-radius: 15px 15px 0 0;
+                 -moz-border-radius: 15px 15px 0 0;
+                 -ms-border-radius: 15px 15px 0 0;
+                 -o-border-radius: 15px 15px 0 0;
+                 img{
+                  max-width:100px;
+                  margin:0 auto;
+                }
+                }
+               figure{
+                 max-width: 200px;
+                 width:70%;
+                 margin:10px auto;
+               }
+               p{
+                 font-size:12px;
+                 color:#444;
+                 text-align:left;
+                 width: 90%;
+                 margin:0 auto;
+               }
+              }
+           }
+        }
+      }
+    }
+    p{
+      font-size: 14px;
+      text-align: center;
+      line-height: 1.5;
+      color:#5e5e5e;
+    }
+    .hd-flex{
+      width:70%;
+      margin:30px auto 40px;
+      justify-content: space-between;
+      h3{
+        width:45%;
+      }
+    }
+  }
+}
+
+

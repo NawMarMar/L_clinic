@@ -78,3 +78,10 @@ a {
     border-radius: 0;
   }
 }
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  -moz-transform: $property;
+  transform: $property;
+}

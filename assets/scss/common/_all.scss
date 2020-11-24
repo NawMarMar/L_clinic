@@ -317,3 +317,63 @@
         }
     }
 }
+
+%beforeafter02 {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.overview {
+    width: 100%;
+    padding: 50px 0 30px;
+    position: relative;
+    &:before {
+        @extend %beforeafter02;
+        background-color: #5A9CD5;
+        left: 0;
+    }
+    &:after {
+        @extend %beforeafter02;
+        background-color: #48A9D3;
+        right: 0;
+    }
+}
+
+.overview-inn {
+    justify-content: space-between;
+}
+
+.overview-left {
+    width: 48%;
+    z-index: 1;
+}
+
+.overview-right {
+    width: 49%;
+    z-index: 1;
+    dl {
+        padding-left: 25px;
+    }
+}
+
+.overviewttl {
+    margin-bottom: 30px;
+}
+
+.overview-list {
+    dl {
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #fff;
+        padding-left: 10px;
+    }
+    dt {
+        width: 100px;
+    }
+    dd {
+        width: 78%;
+    }
+}
